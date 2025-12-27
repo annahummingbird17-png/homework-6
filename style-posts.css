@@ -1,0 +1,136 @@
+@import url("reset.css");
+
+
+/*GLOBAL*/
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background: #0C151D;
+    color: #FFFFFF;
+    line-height: 1;
+}
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title{
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+/*HEADER*/
+.header {
+    padding: 46px 0 47px;
+    font-size: 22px;
+}
+.header-logo{
+    float: left;
+}
+.header-logo,.header-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header-list {
+    float: right;
+    font-size: 0;
+}
+.header-item {
+    display: inline-block;
+    font-size: 22px;
+}
+.header-item+.header-item {
+    margin-left: 40px;
+}
+
+/*MAIN*/
+.post{
+    font-size: 37px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+.text{
+    background: #3D3D3D;
+    margin: 30px 0;
+}
+.name{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 30px;
+}
+.buttons{
+    text-decoration: none;
+    margin-left: 30px;
+}
+.button-history{
+    background: #24A9EB;
+    margin:15px 15px 30px 15px;
+    width:90px;
+    height: 30px;
+    border-radius: 14px;
+}
+.button-american{
+    background: #24A9EB;
+    margin:15px 15px 30px 15px;
+    width:90px;
+    height: 30px;
+    border-radius: 14px;
+}
+.btn{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.post-text{
+    font-size: 22px;
+    font-weight: 500;
+    padding:30px;
+    height: 99px;
+}
+.like-review{
+    display: flex;
+    vertical-align: bottom;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+}
+.heart{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 30px 30px 30px 0;
+    vertical-align:bottom ;
+    text-align: start;
+    display:inline-block;
+}
+.broken-hart{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 30px 30px 30px 0;
+    vertical-align:bottom ;
+    text-align: start;
+    display:inline-block;
+}
+.text-view{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 30px 30px 0;
+    display:inline-block;
+    vertical-align:text-bottom ;
+    text-align: end;
+}
+/*FOOTER*/
+.main-container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.footer-text{
+    padding: 50px 0 51px;
+    vertical-align:text-bottom ;
+    text-align: center;
+}

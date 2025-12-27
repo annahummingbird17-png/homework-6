@@ -23,10 +23,6 @@ body{
     padding: 46px 0 47px;
     font-size: 22px;
 }
-.container{
-}
-.header-container {
-}
 .header-logo{
     float: left;
 }
@@ -53,6 +49,7 @@ body{
     font-size: 22px;
     text-align: center;
     vertical-align: middle;
+    margin-top: 50px;
 }
 .hero-photo{
     display: inline-block;
